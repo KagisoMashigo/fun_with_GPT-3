@@ -1,0 +1,16 @@
+.header{
+  display: flex;
+  flex-direction: column;
+  /* change to responsive*/
+  margin-top: 70px;
+  /* justify-content: center; */
+  width: 60%;
+}
+
+.h1{
+  align-self: flex-end;
+}
+
+.form-container {
+  height: 1000px;
+}
