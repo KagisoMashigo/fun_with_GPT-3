@@ -1,4 +1,4 @@
-import { Button, TextField } from "@mui/material";
+import { Button,  } from "@mui/material";
 import { useState, React } from "react";
 import { useForm } from "react-hook-form";
 import '../../styles/Form.css';
@@ -10,9 +10,11 @@ const PromptForm = () => {
 
   return (
     <form onSubmit={handleSubmit((data) => setData(JSON.stringify(data)))}>
-      <TextField className="text-field" fullWidth={false} {...register("prompt")} placeholder="Write a prompt" />
+      <textarea className="text-field" fullWidth={true} {...register("prompt")} placeholder="Write a prompt" />
       <p>{data}</p>
-      <Button className="Button" variant="contained" type="submit">Submit</Button>
+      <div className="button-span">
+        <Button variant="contained" type="submit">Submit</Button>
+      </div>
     </form>
   );
 }

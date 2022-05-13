@@ -3,14 +3,16 @@
   flex-direction: column;
   /* change to responsive*/
   margin-top: 70px;
-  /* justify-content: center; */
-  width: 60%;
+  width: 40%;
 }
 
 .h1{
-  align-self: flex-end;
+  align-self: flex-start;
+  font-family: 'Noto Sans', sans-serif;
+
 }
 
 .form-container {
   height: 1000px;
+
 }
