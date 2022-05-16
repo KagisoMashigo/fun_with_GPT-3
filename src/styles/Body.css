@@ -1,4 +1,4 @@
-.header{
+.body{
   display: flex;
   flex-direction: column;
   /* change to responsive*/
@@ -6,13 +6,6 @@
   width: 40%;
 }
 
-.h1{
-  align-self: flex-start;
+.h2{
   font-family: 'Noto Sans', sans-serif;
-
-}
-
-.form-container {
-  /* height: 1000px; */
-
 }
