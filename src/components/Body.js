@@ -1,20 +1,15 @@
 import React from 'react';
-import logo from '../logo.svg';
 import '../styles/Body.css';
-import PromptCard from './atoms/Card';
+import PromptForm from './atoms/Form';
 
 const Body = () => {
 
   return (
     <div className="body">
-      <h2 className='h2'>Responses:</h2>
-      <div>
-        <PromptCard>
-
-        </PromptCard>
-      </div>
-      <img src={logo} className="App-logo" alt="logo" />
-    
+      <div className='form-container'>
+        <PromptForm>
+        </PromptForm>
+      </div>    
     </div>
   )
 }

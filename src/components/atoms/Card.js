@@ -1,42 +1,45 @@
-import * as React from 'react';
-import Box from '@mui/material/Box';
-import Card from '@mui/material/Card';
-// import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-// import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
-import '../../styles/Card.css';
+import * as React from "react";
+import "../../styles/Card.css";
 
+const ResponseCard = ({ responseData }) => {
+  const savedResponsesString = localStorage.getItem("initial-responses");
+  const parseSavedResponses = JSON.parse(savedResponsesString);
 
-const createContent = () => {
   return (
-    <React.Fragment>
-      <CardContent>
-        <Typography variant="h6" color="text.primary" >
-          Prompt:
-        </Typography>
-        <Typography variant="body1" component="div" color="text.secondary" gutterBottom>
-          benevolent
-        </Typography>
-        <Typography variant="h6" color="text.primary">
-          Response:
-        </Typography>
-        <Typography variant="body1" component="div" color="text.secondary" gutterBottom>
-          well meaning and kindly.
-          <br />
-          {'"a benevolent smile"'}
-        </Typography>
-      </CardContent>
-    </React.Fragment>
-  );
-}
+    <section className="response-container">
+      <h2 className="response-header">Responses:</h2>
 
-const PromptCard = () => {
-  return (
-    <Box sx={{ minWidth: 275 }}>
-      <Card className='prompt-card' variant="outlined">{createContent()}</Card>
-    </Box>
+      {!parseSavedResponses
+        ? responseData.map((response, index) => {
+            return (
+              <div className="card card-1" key={index}>
+                <p className="card-title">
+                  <strong className="bold">Prompt: </strong>
+                  {response.promptRequest}
+                </p>
+                <p className="card-subtitle">
+                  <strong className="bold">Response: </strong>
+                  {response.completionResponse}
+                </p>
+              </div>
+            );
+          })
+        : parseSavedResponses.map((response, index) => {
+            return (
+              <div className="card card-1" key={index}>
+                <p className="card-title">
+                  <strong className="bold">Prompt: </strong>
+                  {response.promptRequest}
+                </p>
+                <p className="card-subtitle">
+                  <strong className="bold">Response: </strong>
+                  {response.completionResponse}
+                </p>
+              </div>
+            );
+          })}
+    </section>
   );
-}
+};
 
-export default PromptCard 
+export default ResponseCard;
