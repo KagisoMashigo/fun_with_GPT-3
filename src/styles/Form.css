@@ -11,27 +11,6 @@
   margin-bottom: 10px;
 }
 
-.css-jedpe8-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select {
-  background-color: #efeecb;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 3;
-}
-
-.MuiInputLabel-root
-  MuiInputLabel-formControl
-  MuiInputLabel-animated
-  MuiInputLabel-shrink
-  MuiInputLabel-sizeSmall
-  MuiInputLabel-outlined
-  MuiFormLabel-root
-  MuiFormLabel-colorPrimary
-  MuiFormLabel-filled
-  css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
-  background-color: #efeecb;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 3;
-}
-
 .text-field {
   padding: 12px;
   width: 97.5%;
