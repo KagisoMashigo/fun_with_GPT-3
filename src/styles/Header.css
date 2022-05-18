@@ -1,4 +1,4 @@
-.header{
+.header {
   display: flex;
   flex-direction: column;
   /* change to responsive*/
@@ -6,11 +6,11 @@
   width: 40%;
 }
 
-.h2{
+.h2 {
   align-self: flex-start;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
+/* 
 .form-container {
-  /* height: 1000px; */
-}
+  height: 1000px;
+} */

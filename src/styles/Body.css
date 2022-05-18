@@ -1,11 +1,12 @@
-.body{
+.body {
   display: flex;
   flex-direction: column;
   /* change to responsive*/
-  margin-top: 70px;
+  margin-top: 40px;
   width: 40%;
+  height: 100%;
 }
 
-.h2{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+.h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
