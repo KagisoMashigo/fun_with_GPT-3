@@ -4,12 +4,13 @@ An application that uses the GPT-3 AI model created by [OpenA.I.](https://openai
 
 In this application, users can type in a prompt (e.g. Write a story about Beavers, I think dogs are overrated, etc.) in the form. Once a prompt is submitted, depending on the engine you have selected to use, the GPT-3 model contacted and respond with an output accordingly.
 
-[Give it a bash!](https://symphonious-scone-706bfa.netlify.app/) Give it a bash!
+[Give it a bash!](https://symphonious-scone-706bfa.netlify.app/)
 
 ## Table of Contents:
 
 - Tech Stack
 - Dependencies
+- Setup
 - Improvements
 
 ## Tech Stack
@@ -19,9 +20,11 @@ In this application, users can type in a prompt (e.g. Write a story about Beaver
 - HTML5
 - CSS
 
-## Dependencies
+## Setup
 
-Running 'npm install' will install all required dependencies for the application.
+- Firstly you'll need to git clone the project with the command: git clone https://github.com/KagisoMashigo/fun_with_GPT-3.git
+- Secondly run 'npm install' and this will install all required dependencies for the application.
+- Thirdly you'll need an OpenAI account which you can create here to use the API - https://beta.openai.com/signup
 
 ## Improvements
 
