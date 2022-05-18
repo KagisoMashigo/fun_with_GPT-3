@@ -24,7 +24,7 @@ const Header = () => {
       <br></br>
       <div>
         To create a satisfying prompt it is important to use plain language and
-        to be descriptive. I would reccomend reading these{" "}
+        to be descriptive. I would recommend reading these{" "}
         <a href="https://openai.com/api/" target="_blank" rel="noreferrer">
           guidelines
         </a>{" "}
