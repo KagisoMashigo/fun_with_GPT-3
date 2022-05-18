@@ -25,3 +25,11 @@ Running 'npm install' will install all required dependencies for the application
 
 - The submit button and engine selector could change their flex direction upon screen resizing for a more responsive feel
 - The page could be spruced up with more animations and sleeker UI if I had more time.
+
+## Screenshots
+
+[1.](https://github.com/KagisoMashigo/fun_with_GPT-3/blob/main/src/assets/Screen%20Shot%202022-05-18%20at%2012.18.46.png?raw=true)
+
+[2.](https://github.com/KagisoMashigo/fun_with_GPT-3/blob/main/src/assets/Screen%20Shot%202022-05-18%20at%2012.19.18.png?raw=true)
+
+[3.](https://github.com/KagisoMashigo/fun_with_GPT-3/blob/main/src/assets/Screen%20Shot%202022-05-18%20at%2012.21.30.png?raw=true)
