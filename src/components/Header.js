@@ -23,8 +23,10 @@ const Header = () => {
       </div>
       <br></br>
       <div>
-        To create a satisfying prompt it is important to use plain language and
-        to be descriptive. I would recommend reading these{" "}
+        With this web app, you will be able to craft prompts to send to various
+        engines and see their replies! To create a satisfying prompt it is
+        important to use plain language and to be descriptive. I would recommend
+        reading these{" "}
         <a href="https://openai.com/api/" target="_blank" rel="noreferrer">
           guidelines
         </a>{" "}
