@@ -30,7 +30,10 @@ const Header = () => {
         <a href="https://openai.com/api/" target="_blank" rel="noreferrer">
           guidelines
         </a>{" "}
-        on how to design one based on the engine you want to use.
+        on how to design one based on the engine you want to use. Every prompt
+        you write will be saved on the machine you wrote it on, if you would
+        like to start fresh then all you need to do is clear your cache for this
+        page.
       </div>
     </div>
   );
