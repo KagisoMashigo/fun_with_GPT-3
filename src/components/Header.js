@@ -27,7 +27,11 @@ const Header = () => {
         engines and see their replies! To create a satisfying prompt it is
         important to use plain language and to be descriptive. I would recommend
         reading these{" "}
-        <a href="https://openai.com/api/" target="_blank" rel="noreferrer">
+        <a
+          href="https://beta.openai.com/docs/guides/completion/prompt-design"
+          target="_blank"
+          rel="noreferrer"
+        >
           guidelines
         </a>{" "}
         on how to design one based on the engine you want to use. Every prompt
