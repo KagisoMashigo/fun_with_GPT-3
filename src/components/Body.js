@@ -6,7 +6,7 @@ const Body = () => {
   return (
     <div className="body">
       <div className="form-container">
-        <PromptForm></PromptForm>
+        <PromptForm />
       </div>
     </div>
   );

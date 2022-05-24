@@ -1,4 +1,5 @@
-import * as React from "react";
+import React from "react";
+import PropTypes, { object } from "prop-types";
 import "../../styles/Card.css";
 
 const ResponseCard = ({ responseData }) => {
@@ -40,6 +41,10 @@ const ResponseCard = ({ responseData }) => {
           })}
     </section>
   );
+};
+
+ResponseCard.propTypes = {
+  responseData: PropTypes.arrayOf(object),
 };
 
 export default ResponseCard;

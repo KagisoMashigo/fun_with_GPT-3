@@ -1,4 +1,5 @@
 import { useState, React, useRef, useEffect } from "react";
+import { PropTypes, object } from "prop-types";
 import VariableButton from "./Button";
 import ResponseCard from "./Card";
 import { Configuration, OpenAIApi } from "openai";
@@ -35,6 +36,7 @@ const PromptForm = ({ props }) => {
 
   useEffect(() => {
     fetchEngines();
+    console.count("Rerender ");
   }, []);
 
   const showEngines = async () => {
@@ -148,7 +150,7 @@ const PromptForm = ({ props }) => {
       </form>
 
       {isLoading ? (
-        <LoadingSpinner></LoadingSpinner>
+        <LoadingSpinner />
       ) : (
         <ResponseCard responseData={promptDataArray} />
       )}
@@ -165,6 +167,10 @@ const PromptForm = ({ props }) => {
       )}
     </section>
   );
+};
+
+PromptForm.propTypes = {
+  responseData: PropTypes.arrayOf(object),
 };
 
 export default PromptForm;
